@@ -1,0 +1,65 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.content{
+    background-color: hsl(0, 0%, 12%);
+    margin: 60px auto;
+    height: 530px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 100px;
+    width: 80px;
+    margin-left: 100px ;
+    padding: 20px;
+}
+
+.name p{
+    text-align: center;
+    margin:0px;
+    font-size: 22px;
+    font-weight: 700;
+    color:hsl(0, 0%, 100%);
+}
+
+.country p{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.bio p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding:7px;
+}
+
+.btn button{
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 8px;
+    margin-left: 35px;
+    width: 80%;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 600;
+}
+
+.btn button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+
